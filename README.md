@@ -8,13 +8,13 @@
 	touch ~/.zshrc
 	vim ~/.zshrc
 
-add below code
+Add the following code to your .zshrc file.
 
 	export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 	export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"
 	export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"
 
-before running SUI, you should type code below
+Before running SUI, you should enter the following code.
 
 	source ~/.zshrc
 

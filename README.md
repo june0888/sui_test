@@ -14,6 +14,23 @@ add below code
 	export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"
 	export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"
 
-before running SUI, you should enter below
+before running SUI, you should type code below
 
 	source ~/.zshrc
+
+for adding Testnet for SUI,
+
+	sui client new-env --alias testnet --rpc https://fullnode.testnet.sui.io:443
+
+for checking your address, please enter 
+
+	sui keytool list
+
+You can request SUI at https://faucet.sui.io/?network=testnet
+
+If you get SUI, you can confirm that you get SUI.
+
+	sui client gas
+
+
+
